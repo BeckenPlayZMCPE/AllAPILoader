@@ -1,0 +1,8 @@
+name: AllAPILoader
+main: BeckenPlayZMCPE\AllAPILoader\Main
+version: 1.0.0
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+author: BeckenPlayZMCPE
+description: Makes the server load every plugin regardless of the API version
+load: STARTUP
+softdepend: ["DevTools", "FolderPluginLoader"]
